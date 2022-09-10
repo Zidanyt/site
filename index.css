@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: opx;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightslategray;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+img{
+    width: 50%;
+    padding: 100px;
+}
+p{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+nav > a{
+    text-decoration: none;
+    padding: 5px;
+    background: azure;
+}
+nav > a:hover{
+    text-decoration: line-through;
+    color: lightskyblue;
+}
